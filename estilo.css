@@ -1,0 +1,20 @@
+/*Guia 61c HG19010 tpi2021*/
+img {width:3cm;height:3cm;}
+table {width:80%;margin:auto;}
+th#price {cursor:pointer;}
+li {color:red;}
+/*si chequea muestra los productos sin cheque desaparecen los productos*/
+input#c1:checked ~ table tbody tr.c1 { display: table-row; background-color:yellowgreen }
+input#c1:not(checked) ~ table tbody tr.c1 { display: none; }
+input#c2:checked ~ table tbody tr.c2 { display: table-row; background-color:tomato}
+input#c2:not(checked) ~ table tbody tr.c2 { display: none; }
+input#c3:checked ~ table tbody tr.c3 { display: table-row; background-color:aquamarine}
+input#c3:not(checked) ~ table tbody tr.c3 { display: none; }
+input#c4:checked ~ table tbody tr.c4 { display: table-row; background-color:bisque}
+input#c4:not(checked) ~ table tbody tr.c4 { display: none; }
+
+#formulario{
+    padding: 5ex;
+    border-style: solid;
+    border-color: red;
+}
